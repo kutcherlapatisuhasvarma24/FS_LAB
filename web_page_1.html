@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic web page</title>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">FIRST WEB PAGE</h1>
+    <h2 style="text-align: center;">HTML WEB PAGE </h2>
+    <p style="text-align: center;">Fill out your details below and click the submit button under the package you want.
+    </p>
+    <fieldset>
+        <!-- Package 1: General -->
+        <section>
+            <h3>Option 1: General </h3>
+            <form action="/submit-general" method="POST">
+                <p>
+                    <label for="name1">Full Name:</label>
+                    <input type="text" id="name1" name="username" required placeholder="John Doe">
+                </p>
+                <p>
+                    <label for="email1">Email Address:</label>
+                    <input type="email" id="email1" name="useremail" required placeholder="john@example.com">
+                </p>
+                <p>
+                    <label for="mobile1">Mobile Number:</label>
+                    <input type="tel" id="mobile1" name="number" required placeholder="1234567890">
+                </p>
+                <input type="hidden" name="selected_package" value="General ">
+                <input type="submit" value="Submit General Package Choice">
+            </form>
+        </section>
+
+        <!-- Package 2: Technical -->
+        <section>
+            <h3>Option 2: Technical </h3>
+            <form action="/submit-technical" method="POST">
+                <p>
+                    <label for="name2">Full Name:</label>
+                    <input type="text" id="name2" name="username" required placeholder="John Doe">
+                </p>
+                <p>
+                    <label for="email2">Email Address:</label>
+                    <input type="email" id="email2" name="useremail" required placeholder="john@example.com">
+                </p>
+                <p>
+                    <label for="mobile2">Mobile Number:</label>
+                    <input type="tel" id="mobile2" name="number" required placeholder="1234567890">
+                </p>
+                <input type="hidden" name="selected_package" value="Technical ">
+                <input type="submit" value="Submit Technical Package Choice">
+            </form>
+        </section>
+
+        <!-- Package 3: Academics -->
+        <section>
+            <h3>Option 3: Academics </h3>
+            <form action="/submit-academics" method="POST">
+                <p>
+                    <label for="name3">Full Name:</label>
+                    <input type="text" id="name3" name="username" required placeholder="John Doe">
+                </p>
+                <p>
+                    <label for="email3">Email Address:</label>
+                    <input type="email" id="email3" name="useremail" required placeholder="john@example.com">
+                </p>
+                <p>
+                    <label for="mobile3">Mobile Number:</label>
+                    <input type="tel" id="mobile3" name="number" required placeholder="1234567890">
+                </p>
+                <input type="hidden" name="selected_package" value="Academics">
+                <input type="submit" value="Submit Academics Package Choice">
+                <p>
+                    <input type="submit" value="Submit Form Data">
+                    <input type="reset" value="Clear Entries">
+                </p>
+            </form>
+        </section>
+
+    </fieldset>
+
+</body>
+
+</html>
