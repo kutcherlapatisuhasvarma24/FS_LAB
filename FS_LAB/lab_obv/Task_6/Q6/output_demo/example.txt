@@ -1,0 +1,2 @@
+Line 1: Hello from Node.js FS module!
+Line 2: Appended content via fs.appendFile().
