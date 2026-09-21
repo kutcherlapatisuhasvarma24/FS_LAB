@@ -1,2 +1,0 @@
-Hello! This is line 1 of the initial file.
-This is line 2 appended dynamically via Node.js fs.
