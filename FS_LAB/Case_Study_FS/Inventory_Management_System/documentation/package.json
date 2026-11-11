@@ -1,0 +1,12 @@
+{
+  "name": "report-generator",
+  "version": "1.0.0",
+  "description": "Academic PDF Report Generator for Inventory Management System Case Study",
+  "main": "generate-report.js",
+  "scripts": {
+    "generate": "node generate-report.js"
+  },
+  "dependencies": {
+    "pdfkit": "^0.14.0"
+  }
+}
